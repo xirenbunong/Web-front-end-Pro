@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{font-family: 苹方;margin: 0;padding: 0;}
+        a{text-decoration:none;}
+        a:hover{text-decoration: #cb2a2d;color: #cb2a2d;}
+        header{
+            height: 70px;
+        }
+        header img{
+            margin-left: 30px;
+            margin-top: 1px;
+        }
+        main{
+            width: 1280px;
+            height: 477px;
+            background-color: #ddd;
+            background: url("./img/login-bg.jpg") no-repeat center;
+           
+        }
+
+        .login{
+            width: 28%;
+            height: 300px;
+            position: absolute;
+            top: 160px;
+            right: 115px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+        }
+        .login .head{
+            font-size: 22px;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #aaa;
+            border-bottom: 1px solid #aaa;
+        }
+        .login .import{
+            height: 110px;
+            width: 280px;
+            margin-top: 40px;
+        }
+        .login .import input{
+            height: 33px;
+            width: 276px;
+            margin-bottom: 20px;
+            text-align: center;
+            border:1px solid #c8cccf;
+        }
+        .login-btn{
+            width: 100%;
+            height: 35px;
+            text-align: center;
+        }
+        .login-btn button{
+            background: linear-gradient(#e4393c,#cb2a2d);
+            height: 35px;
+            width: 278px;
+            border: none;
+            outline: none;
+            margin-top: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-footer{
+            width:278px;
+            margin-top: 10px;
+            font-size: 14px;
+
+        }
+        .login-footer .logFot-l{
+            float: left;
+        }
+        .login-footer .logFot-r{
+            float: right;
+        }
+        footer{
+            text-align: center;
+            font-size: 14px;
+        }
+        footer a{
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" alt="">
+    </header>
+    <main>
+        <div class="login">
+            <div class="head">用户登录</div>
+            <div class="import">
+                <input type="text" placeholder ="邮箱/用户名/手机号">
+                <input type="password" placeholder ="请输入密码">
+            </div>
+            <div class="login-btn">
+                <button>登录</button>
+            </div>
+            <div class="login-footer">
+                <div class="logFot-l">没有账号？ <a href="">注册</a></div>
+                <div class="logFot-r"><a href="">忘记密码</a></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            <a href="">关于我们</a> |
+            <a href="">联系我们</a> |
+            <a href="">人才招聘</a> |
+            <a href="">商家入驻</a> |
+            <a href="">广告服务</a> |
+            <a href="">手机京东</a> |
+            <a href="">友情链接</a> |
+            <a href="">销售联盟</a> |
+            <a href="">京东社区</a> |
+            <a href="">京东公益</a> |
+            <a href="">English Site</a>
+        </p>
+                <p>Copyright © 2004-2018  京东JD.com 版权所有</p>
+    </footer>
+</body>
+</html>
